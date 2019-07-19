@@ -14,4 +14,3 @@ export class AppPage {
 
 
 
-// this is
