@@ -1,0 +1,14 @@
+/Users/peiranliu/Desktop/DatingApp/DatingApp.API/bin/Debug/netcoreapp2.1/DatingAPP.API.deps.json
+/Users/peiranliu/Desktop/DatingApp/DatingApp.API/bin/Debug/netcoreapp2.1/DatingAPP.API.runtimeconfig.json
+/Users/peiranliu/Desktop/DatingApp/DatingApp.API/bin/Debug/netcoreapp2.1/DatingAPP.API.runtimeconfig.dev.json
+/Users/peiranliu/Desktop/DatingApp/DatingApp.API/bin/Debug/netcoreapp2.1/DatingAPP.API.dll
+/Users/peiranliu/Desktop/DatingApp/DatingApp.API/bin/Debug/netcoreapp2.1/DatingAPP.API.pdb
+/Users/peiranliu/Desktop/DatingApp/DatingApp.API/obj/Debug/netcoreapp2.1/DatingAPP.API.csprojAssemblyReference.cache
+/Users/peiranliu/Desktop/DatingApp/DatingApp.API/obj/Debug/netcoreapp2.1/DatingAPP.API.csproj.CoreCompileInputs.cache
+/Users/peiranliu/Desktop/DatingApp/DatingApp.API/obj/Debug/netcoreapp2.1/DatingAPP.API.RazorAssemblyInfo.cache
+/Users/peiranliu/Desktop/DatingApp/DatingApp.API/obj/Debug/netcoreapp2.1/DatingAPP.API.RazorAssemblyInfo.cs
+/Users/peiranliu/Desktop/DatingApp/DatingApp.API/obj/Debug/netcoreapp2.1/DatingAPP.API.AssemblyInfoInputs.cache
+/Users/peiranliu/Desktop/DatingApp/DatingApp.API/obj/Debug/netcoreapp2.1/DatingAPP.API.AssemblyInfo.cs
+/Users/peiranliu/Desktop/DatingApp/DatingApp.API/obj/Debug/netcoreapp2.1/DatingAPP.API.RazorTargetAssemblyInfo.cache
+/Users/peiranliu/Desktop/DatingApp/DatingApp.API/obj/Debug/netcoreapp2.1/DatingAPP.API.dll
+/Users/peiranliu/Desktop/DatingApp/DatingApp.API/obj/Debug/netcoreapp2.1/DatingAPP.API.pdb
