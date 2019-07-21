@@ -13,7 +13,7 @@ export class NavComponent implements OnInit {
 
 
   // tslint:disable-next-line:no-shadowed-variable
-  constructor(private AuthService: AuthService, private alertify: AlertifyService) { }
+  constructor(public AuthService: AuthService, private alertify: AlertifyService) { }
 
   ngOnInit() {
   }
@@ -28,8 +28,7 @@ export class NavComponent implements OnInit {
   }
 
   loggedIn() {
-    const token = localStorage.getItem('token');
-    return !!token;
+  return  this.AuthService.loggedIn();
   }
 
   logout() {
