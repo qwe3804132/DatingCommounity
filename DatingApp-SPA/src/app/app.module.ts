@@ -1,3 +1,4 @@
+import { UserService } from './_services/user.service';
 import { AuthGuard } from './_guards/auth.guard';
 import { RouterModule } from '@angular/router';
 import { AlertifyService } from './_services/alertify.service';
@@ -43,7 +44,8 @@ import { appRoutes } from './routes';
       AuthService,
       ErrorInterceptorProvider,
       AlertifyService,
-      AuthGuard
+      AuthGuard,
+      UserService
    ],
    bootstrap: [
       AppComponent
