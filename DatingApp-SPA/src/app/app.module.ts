@@ -1,3 +1,4 @@
+import { MemberCardComponent } from './members/member-card/member-card.component';
 import { UserService } from './_services/user.service';
 import { AuthGuard } from './_guards/auth.guard';
 import { RouterModule } from '@angular/router';
@@ -30,7 +31,8 @@ import { appRoutes } from './routes';
       RegisterComponent,
       MemberListComponent,
       ListsComponent,
-      MessagesComponent
+      MessagesComponent,
+      MemberCardComponent
 
    ],
    imports: [
