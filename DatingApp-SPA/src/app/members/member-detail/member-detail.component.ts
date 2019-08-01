@@ -16,16 +16,20 @@ export class MemberDetailComponent implements OnInit {
               private route: ActivatedRoute) { }
 
   ngOnInit() {
-    this.loadUser();
-  }
-
-  loadUser() {
-    // tslint:disable-next-line:no-string-literal
-    this.userService.getUser(+this.route.snapshot.params['id']).subscribe((user: User) => {
-      this.user = user;
-    }, error => {
-      this.alertify.error(error);
+    // this.loadUser();
+    this.route.data.subscribe(data => {
+      // tslint:disable-next-line:no-string-literal
+      this.user = data['user'];
     });
   }
+
+  // loadUser() {
+  //   // tslint:disable-next-line:no-string-literal
+  //   this.userService.getUser(+this.route.snapshot.params['id']).subscribe((user: User) => {
+  //     this.user = user;
+  //   }, error => {
+  //     this.alertify.error(error);
+  //   });
+  // }
 
 }
