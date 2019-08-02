@@ -9,6 +9,7 @@ import { MemberListComponent } from './members/member-list/member-list.component
 import { HomeComponent } from './home/home.component';
 import { Component } from '@angular/core';
 import { MemberEditComponent } from './members/member-edit/member-edit.component';
+import { MemberEditResolver } from './_resolvers/member-edit.resolver';
 
 
 export const appRoutes: Routes = [
@@ -20,7 +21,7 @@ export const appRoutes: Routes = [
         children: [
             {path: 'members', component: MemberListComponent, resolve: {users: MemberListResolver}},
             {path: 'members/:id', component: MemberDetailComponent, resolve: {user: MemberDetailResolver}},
-            {path: 'member/edit', component: MemberEditComponent},
+            {path: 'member/edit', component: MemberEditComponent, resolve: {user: MemberEditResolver}},
             {path: 'messages', component: MessagesComponent},
             {path: 'lists', component: ListsComponent},
         ]
