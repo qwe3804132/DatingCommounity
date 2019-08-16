@@ -1,4 +1,5 @@
 # DatingCommounity
-## .NET CORE
-##Angular6
-##WebApi
+# .NET CORE 2.0
+# Angular6
+# WebApi
+# Cloudinary
