@@ -18,6 +18,8 @@ import {HttpClientModule} from '@angular/common/http';
 import {FormsModule} from '@angular/forms';
 import { JwtModule } from '@auth0/angular-jwt';
 import { NgxGalleryModule} from 'ngx-gallery';
+import { FileUploadModule } from 'ng2-file-upload';
+
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -57,6 +59,7 @@ export function tokenGetter() {
       HttpClientModule,
       FormsModule,
       NgxGalleryModule,
+      FileUploadModule,
       BsDropdownModule.forRoot(),
       TabsModule.forRoot(),
       RouterModule.forRoot(appRoutes),
