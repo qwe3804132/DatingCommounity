@@ -100,6 +100,15 @@ namespace DatingApp.API.Controllers
 
         }
 
+
+
+
+
+
+
+
+
+
         [HttpPost("{id}/setMain")]
         public async Task<IActionResult> SetMainPhoto(int userId, int id) 
         {
