@@ -11,6 +11,7 @@ import { Router } from '@angular/router';
 export class NavComponent implements OnInit {
 
   model: any = {};
+  photoUrl: string;
 
 
   // tslint:disable-next-line:no-shadowed-variable
@@ -18,6 +19,7 @@ export class NavComponent implements OnInit {
               private router: Router) { }
 
   ngOnInit() {
+    this.AuthService.currentPhotoUrl.subscribe(photoUrl => this.photoUrl = photoUrl);
   }
 
 
@@ -37,6 +39,9 @@ export class NavComponent implements OnInit {
 
   logout() {
     localStorage.removeItem('token');
+    localStorage.removeItem('user');
+    this.AuthService.decodedToken = null;
+    this.AuthService.currentUser = null;
     this.alertify.message('logged out');
     this.router.navigate(['/home']);
 
