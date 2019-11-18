@@ -30,12 +30,12 @@ export class RegisterComponent implements OnInit {
   }
 
   register() {
-    // this.authService.register(this.model).subscribe(() => {
-    //   this.alertify.success('registration is successful');
-    // }, error => {
-    //   this.alertify.error(error);
-    // });
-    console.log(this.registerForm.value);
+     this.authService.register(this.model).subscribe(() => {
+      this.alertify.success('registration is successful');
+     }, error => {
+       this.alertify.error(error);
+     });
+    // console.log(this.registerForm.value);
   }
 
   cancel() {
